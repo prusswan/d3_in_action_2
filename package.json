@@ -2,9 +2,27 @@
   "name": "d3ia-2e",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5"
+    "@rails/webpacker": "3.5",
+    "d3-array": "1.0.1",
+    "d3-axis": "1.0.3",
+    "d3-brush": "1.0.3",
+    "d3-geo": "1.2.6",
+    "d3-scale": "1.0.3",
+    "d3-selection": "1.0.2",
+    "d3-shape": "1.0.3",
+    "d3-svg-legend": "2.15.0",
+    "d3-transition": "1.0.3",
+    "react": "15.3.2",
+    "react-dom": "15.3.2"
   },
   "devDependencies": {
-    "webpack-dev-server": "2.11.2"
+    "webpack-dev-server": "2.11.2",
+    "react-scripts": "0.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

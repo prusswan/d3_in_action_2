@@ -7,7 +7,7 @@
         "uglify": true
       },
       "useBuiltIns": true
-    }]
+    }], "react"
   ],
 
   "plugins": [
