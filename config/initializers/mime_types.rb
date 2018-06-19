@@ -4,3 +4,4 @@
 # Mime::Type.register "text/richtext", :rtf
 
 Mime::Type.register "application/json", :geojson
+Mime::Type.register "application/json", :topojson
