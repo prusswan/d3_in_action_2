@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css'
+//import './App.css'
 import { select, event } from 'd3-selection'
 import { scaleLinear } from 'd3-scale'
 import { brushX } from 'd3-brush'

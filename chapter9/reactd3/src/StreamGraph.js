@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css'
+//import './App.css'
 import { stack, area, curveBasis, stackOrderInsideOut, stackOffsetWiggle } from 'd3-shape'
 import { range } from 'd3-array'
 import { scaleLinear } from 'd3-scale'
