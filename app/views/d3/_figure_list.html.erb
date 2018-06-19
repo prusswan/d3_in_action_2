@@ -1,0 +1,19 @@
+<% @file_groups = @files.group_by { |f| f.split("_")[1] } %>
+
+<% @file_groups.each do |c, files| %>
+
+  <div class="dropdown">
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton<%= c %>" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Chapter <%= c %>
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton<%= c %>">
+
+      <% files.each do |f| %>
+        <a href='<%= "/d3/#{f}" %>' class="dropdown-item"><%= f %></a>
+      <% end %>
+    </div>
+
+  </div>
+<% end %>
