@@ -1,4 +1,4 @@
-<% @file_groups = @files.group_by { |f| f.split("_")[1] } %>
+<% @file_groups = @files.group_by { |f| /chapter(?<c>\d+)/.match(f)['c'].to_i }.sort_by {|k,v| k} %>
 
 <% @file_groups.each do |c, files| %>
 
@@ -11,7 +11,7 @@
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton<%= c %>">
 
       <% files.each do |f| %>
-        <a href='<%= "/d3/#{f}" %>' class="dropdown-item"><%= f %></a>
+        <a href='<%= "/#{f}" %>' class="dropdown-item"><%= f %></a>
       <% end %>
     </div>
 
