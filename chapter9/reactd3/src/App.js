@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//import './App.css'
+import './App.css'
 import WorldMap from './WorldMap'
 import BarChart from './BarChart'
 import StreamGraph from './StreamGraph'

@@ -16,8 +16,8 @@
     "react-dom": "15.3.2"
   },
   "devDependencies": {
-    "webpack-dev-server": "2.11.2",
-    "react-scripts": "0.7.0"
+    "react-scripts": ">0.7.0",
+    "webpack-dev-server": "2.11.2"
   },
   "scripts": {
     "start": "react-scripts start",
